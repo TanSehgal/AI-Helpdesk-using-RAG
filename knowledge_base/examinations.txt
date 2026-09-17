@@ -1,0 +1,81 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - EXAMINATIONS DEPARTMENT
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== EVALUATION SCHEME ===
+Each course is evaluated using a combination of continuous assessment and end-semester
+examination:
+- Internal Assessment (Continuous Evaluation): 40% weight
+  - 2 Class Tests: 20%
+  - Assignments/Quizzes: 10%
+  - Attendance and Class Participation: 10%
+- End-Semester Examination: 60% weight
+
+Practical/lab courses follow a different scheme:
+- Lab Records and Continuous Evaluation: 50%
+- End-Semester Lab Examination: 50%
+
+=== EXAM SCHEDULE ===
+End-semester examinations are held twice a year:
+- Odd Semester exams: First two weeks of December
+- Even Semester exams: First two weeks of May
+
+The detailed datesheet is published on the Examination Section notice board and the
+university website at least 3 weeks before the examination period begins. Students can
+also download their personalized exam hall ticket (admit card) from the Student
+Information Portal 5 days before exams begin.
+
+=== EXAM ELIGIBILITY ===
+Students must have a minimum of 75% attendance (or approved condonation down to 65%)
+and no pending dues to be eligible for the end-semester examination. Students with
+pending library books, hostel dues, or fee dues will not receive their hall ticket
+until the dues are cleared.
+
+=== REVALUATION AND RECHECKING ===
+Students who wish to have their answer scripts rechecked may apply within 7 days of
+result declaration through the online portal. Rechecking fee is Rs. 300 per subject.
+Rechecking involves verification of totaling and ensuring no question is left
+unevaluated; it does not involve re-evaluation of the answers themselves.
+
+=== SUPPLEMENTARY / BACKLOG EXAMINATIONS ===
+Students who fail a course may appear for the supplementary examination conducted
+approximately 6 weeks after the regular result declaration. Supplementary exam
+registration must be completed within 10 days of result declaration, with a fee of
+Rs. 400 per subject.
+
+=== GRADING SYSTEM ===
+GIT follows a 10-point grading scale:
+O (Outstanding): 90-100 = 10 grade points
+A+ (Excellent): 80-89 = 9 grade points
+A (Very Good): 70-79 = 8 grade points
+B+ (Good): 60-69 = 7 grade points
+B (Above Average): 50-59 = 6 grade points
+C (Average): 45-49 = 5 grade points
+P (Pass): 40-44 = 4 grade points
+F (Fail): Below 40 = 0 grade points
+
+CGPA is calculated as the credit-weighted average of grade points across all completed
+semesters.
+
+=== RESULT DECLARATION ===
+Results are typically declared within 3 weeks of the last examination date and are
+published on the Student Information Portal. Physical mark sheets can be collected
+from the Examination Section after 2 weeks of the online declaration.
+
+=== CONTACT INFORMATION ===
+Examination Section Office: Admin Block, Room 108
+Email: exams@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6002 (10 AM - 5 PM, Monday to Saturday)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: I lost my hall ticket. What should I do?
+A: Visit the Examination Section with your student ID card to get a duplicate hall
+   ticket at least 2 days before your exam.
+
+Q: Can I get my exam re-evaluated, not just rechecked?
+A: No, GIT policy allows only rechecking (verification of totaling), not full
+   re-evaluation of answers.
+
+Q: When will I know if I have a backlog?
+A: Backlogs are indicated in your semester result on the Student Information Portal
+   with the grade "F" for the relevant course.

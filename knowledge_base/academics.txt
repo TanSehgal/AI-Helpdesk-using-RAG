@@ -1,0 +1,87 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - ACADEMICS DEPARTMENT
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== ACADEMIC CALENDAR ===
+GIT follows a semester system with two semesters per academic year:
+- Odd Semester (Semester 1, 3, 5, 7): August to December
+- Even Semester (Semester 2, 4, 6, 8): January to May
+Each semester consists of 16 weeks of instruction followed by a 2-week examination period.
+
+=== PROGRAMS OFFERED ===
+GIT offers the following undergraduate programs, each 4 years (8 semesters) in duration:
+- B.Tech in Computer Science and Engineering (CSE)
+- B.Tech in Electronics and Communication Engineering (ECE)
+- B.Tech in Mechanical Engineering (ME)
+- B.Tech in Civil Engineering (CE)
+- B.Tech in Artificial Intelligence and Data Science (AIDS)
+
+Postgraduate programs (2 years, 4 semesters):
+- M.Tech in Computer Science and Engineering
+- M.Tech in VLSI Design
+- MBA in Technology Management
+
+=== COURSE REGISTRATION ===
+Course registration for each semester opens two weeks before the semester begins and
+closes one week after classes start. Students register through the Student Information
+Portal (SIP) using their university credentials. Late registration is allowed only with
+written approval from the Head of Department (HoD) and carries a late fee of Rs. 500.
+
+Each student must register for a minimum of 18 credits and a maximum of 24 credits per
+semester. Students on academic probation are limited to a maximum of 16 credits.
+
+=== ATTENDANCE POLICY ===
+A minimum of 75% attendance is mandatory in each course to be eligible to sit for the
+end-semester examination. Attendance is calculated from the first day of the semester.
+Students with attendance between 65% and 75% may apply for condonation through the
+Attendance Condonation Committee, subject to valid medical or personal grounds supported
+by documentary evidence. Students below 65% attendance are automatically detained and
+must repeat the course in a subsequent semester.
+
+Medical leave: Students must submit a medical certificate within 7 days of returning to
+classes for the absence to be considered for condonation.
+
+=== SYLLABUS AND CURRICULUM ===
+The detailed syllabus for each course is published on the department website at the
+start of every semester and is also available at the Academic Section office (Admin
+Block, Room 104). Each course syllabus includes: course objectives, unit-wise topics,
+recommended textbooks, evaluation scheme, and course outcomes.
+
+Curriculum revisions occur once every 4 years through the Board of Studies (BoS). The
+current curriculum in effect is version 2023 (AC-2023).
+
+=== ACADEMIC RULES ===
+- Minimum CGPA of 5.0 is required to be promoted to the next academic year.
+- Students with a CGPA below 5.0 for two consecutive semesters are placed on academic
+  probation and counseled by their faculty advisor.
+- A student may carry forward a maximum of 3 backlog (failed) courses to the next
+  semester while continuing with the regular curriculum.
+- Grade grievances must be submitted within 10 working days of result declaration
+  through the online grievance portal.
+- Academic dishonesty (plagiarism, copying, impersonation) in any assessment results in
+  a zero for that assessment on the first offense and possible suspension on repeat
+  offenses, as decided by the Academic Discipline Committee.
+
+=== FACULTY ADVISORS ===
+Each student is assigned a faculty advisor at the time of admission who provides
+guidance on course selection, academic performance, and career planning. Faculty
+advisor details are available on the Student Information Portal under "My Advisor".
+
+=== CONTACT INFORMATION ===
+Academic Section Office: Admin Block, Room 104
+Email: academics@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6001 (10 AM - 5 PM, Monday to Saturday)
+Office Hours: Monday to Friday, 9:30 AM - 5:30 PM; Saturday, 9:30 AM - 1:00 PM
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: How do I check my current attendance percentage?
+A: Log in to the Student Information Portal (SIP) and navigate to "Attendance" under
+   the Academics tab. Attendance is updated weekly by faculty.
+
+Q: Can I change my elective course after registration?
+A: Yes, but only during the "Add/Drop" period, which is open for the first 10 days of
+   the semester. After this period, elective changes require HoD approval.
+
+Q: What happens if I miss the registration deadline?
+A: You must contact your faculty advisor and submit a late registration request with
+   the Rs. 500 late fee through the Accounts Office.

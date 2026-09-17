@@ -1,0 +1,225 @@
+AI CAMPUS HELPDESK - PROJECT SUMMARY (PLAIN LANGUAGE)
+========================================================
+This document explains the whole project in simple terms so that anyone reading it
+(including someone who did not write every line of code) can understand and explain
+it in a viva/demo.
+
+1. WHAT THE PROJECT DOES
+-------------------------
+This project is a chatbot that answers questions about a (fictional, sample) college
+called "Greenfield Institute of Technology" (GIT). A student types a question like
+"What documents are required for hostel admission?" into a simple web page. The
+system figures out which department the question belongs to (Hostel, Academic,
+Administration, or Student Services), looks up relevant facts from that department's
+documents, and uses a local AI model to write an answer using only those facts. It
+also shows which department handled the question and which source documents were
+used, and it clearly says "I don't know" instead of making things up when the
+knowledge base doesn't have the answer.
+
+2. WHY IT WAS CREATED
+-----------------------
+Generic AI chatbots (like a plain LLM) often "hallucinate" - they make up plausible
+sounding but wrong answers, especially about specific facts like fees, deadlines, or
+procedures that they were never trained on. This project demonstrates two techniques
+that reduce that problem for a specific, practical use case (a university helpdesk):
+(1) Retrieval-Augmented Generation (RAG), which grounds answers in real documents, and
+(2) a Multi-Agent architecture, which routes each question to a specialist that only
+looks at the relevant department's documents instead of a huge mixed pile of
+information.
+
+3. HOW RAG WORKS IN THIS PROJECT
+-----------------------------------
+RAG stands for Retrieval-Augmented Generation. Instead of just asking the AI model a
+question and hoping it knows the answer, we:
+  a. Take all the knowledge base text files (academics.txt, hostel.txt, fees.txt, etc.)
+  b. Split them into small overlapping chunks of text (~700 characters each, with 100
+     characters of overlap so information isn't cut off awkwardly at chunk boundaries)
+  c. Convert each chunk into a numeric "embedding" vector using a small, free,
+     open-source sentence-transformer model (all-MiniLM-L6-v2) that represents the
+     chunk's meaning as a list of numbers
+  d. Store all these vectors in a local vector database (ChromaDB)
+  e. When a student asks a question, we convert the question into the same kind of
+     vector and search ChromaDB for the chunks whose vectors are "closest" (most
+     semantically similar) to the question's vector
+  f. We give those chunks to the AI model as "context" and instruct it: answer ONLY
+     using this context, and say "I don't know" if the context doesn't have the answer
+
+This is why the chatbot can correctly answer specific questions about a fictional
+university it was never trained on - the facts come from the retrieved documents, not
+from what the AI model "remembers".
+
+4. HOW THE MULTI-AGENT SYSTEM WORKS
+--------------------------------------
+Instead of one big chatbot trying to know everything, this project has five agents:
+
+  - Router Agent: reads the question and decides which of the four departments it
+    belongs to
+  - Academic Agent, Hostel Agent, Administration Agent, Student Services Agent: each
+    one only searches its OWN department's knowledge base and answers using only
+    that department's documents
+
+This mirrors how a real university helpdesk works - a student asking about hostel
+admission gets connected to hostel staff, not the library desk.
+
+5. WHAT EACH AGENT DOES
+--------------------------
+- Academic Agent: courses, subjects, attendance rules, exams, syllabus, academic
+  policies (grading, CGPA, backlogs)
+- Hostel Agent: hostel applications, room allocation, hostel rules, mess timings,
+  hostel fees, hostel complaints
+- Administration Agent: tuition fees, scholarships, certificates (bonafide, transfer,
+  migration), general administrative procedures
+- Student Services Agent: library rules, student ID cards, campus transportation/bus
+  service, IT support (Wi-Fi, portal password resets, software)
+
+All four agents are built from the SAME underlying code (app/agents/base_agent.py) -
+each is just that shared logic configured with a different department name. This
+avoids repeating the same retrieval-then-generate code four times.
+
+6. HOW THE ROUTER AGENT WORKS
+--------------------------------
+The Router Agent first tries to ask the AI model itself: "which of these four
+departments does this question belong to?" using a carefully written prompt with
+examples (this is called "semantic routing" because it relies on the model
+understanding the MEANING of the question, not just matching words).
+
+If the AI model is unreachable, times out, or returns something that isn't one of the
+four valid department names, the router falls back to simple KEYWORD matching (e.g. if
+the question contains the word "hostel", route it to Hostel) so the system never
+crashes just because the AI model had a bad day. This fallback is intentionally
+simple and is documented as a safety net, not a replacement for the LLM router.
+
+7. HOW THE KNOWLEDGE BASE WORKS
+------------------------------------
+The knowledge_base/ folder has 10 plain text files, each representing one topic area
+of the fictional Greenfield Institute of Technology: academics.txt, examinations.txt,
+hostel.txt, fees.txt, scholarships.txt, certificates.txt, library.txt,
+student_services.txt, transportation.txt, and it_support.txt. Each file is mapped to
+one of the four departments (see FILE_DEPARTMENT_MAP in
+app/rag/document_loader.py). The content includes realistic-looking (but entirely
+made up) policies, fees, timings, procedures, and FAQs, written to be internally
+consistent (e.g. the hostel fee mentioned in hostel.txt matches what's referenced
+elsewhere). The system also supports adding new .txt or .pdf files later - you just
+rebuild the index afterward.
+
+8. HOW OLLAMA IS USED
+------------------------
+Ollama is a tool that lets you run open-source AI language models entirely on your
+own computer (no internet or paid API required). This project sends prompts to
+Ollama's local HTTP API (http://localhost:11434) and gets back generated text. The
+project was tested with small local models (llama3.2:3b and qwen2.5:3b) which are
+free but slower and less capable than large cloud models - this is a deliberate
+trade-off for a project that must run without paid API keys. The model name is
+configurable via the OLLAMA_MODEL environment variable, so a more capable model (e.g.
+llama3.1:8b) can be swapped in without changing any code.
+
+9. HOW THE FASTAPI BACKEND WORKS
+-------------------------------------
+app/main.py exposes two HTTP endpoints:
+  - GET /health: reports whether Ollama and the vector database are reachable/ready
+  - POST /ask: accepts {"question": "..."} and returns the answer, which department
+    and agent handled it, the source documents used, how long it took, and whether
+    the answer was "grounded" (found in the knowledge base) or not
+
+Pydantic models (app/models/schemas.py) validate the request/response shape
+automatically, so malformed requests get a clear error instead of a crash.
+
+10. HOW THE STREAMLIT FRONTEND WORKS
+-----------------------------------------
+ui/streamlit_app.py is a simple web page where a student types a question, clicks
+"Ask", and sees the answer along with the department, agent, response time, and
+source documents (in an expandable section). It keeps a running chat history using
+Streamlit's built-in session state (no separate database needed, since this is a
+prototype demo, not a production system with persistent multi-session history). A
+sidebar explains RAG, the multi-agent architecture, and the four departments.
+
+11. HOW EVALUATION WORKS
+-----------------------------
+evaluation/questions.json contains 49 test questions, each with the expected
+department, some expected "concepts" that should appear in a good answer, and which
+source document the answer should come from. evaluation/evaluate.py runs these
+questions through three configurations (see research_paper.txt for full results):
+  A. Plain LLM with no retrieval at all (baseline - tests what the model "already
+     knows", which should be close to nothing for a fictional university)
+  B. LLM + RAG but with NO department routing (single shared retrieval pool)
+  C. The full system: Multi-Agent Router + department-scoped RAG
+
+It measures: routing accuracy (did the router pick the right department, Experiment C
+only), retrieval success rate (was the expected source document actually retrieved),
+answer correctness (a simple check for whether expected keywords/concepts appear in
+the answer - NOT a full semantic evaluator), response time, and how often the system
+correctly refused to answer out-of-domain questions instead of making something up.
+Results are saved as CSV files plus a summary.json.
+
+12. WHAT TECHNOLOGIES WERE USED
+------------------------------------
+Python 3.11+, FastAPI, Streamlit, LangChain (for text splitting), ChromaDB (vector
+database), sentence-transformers (embeddings), Ollama (local LLM inference), pypdf
+(PDF loading), python-dotenv (configuration), pytest (testing).
+
+13. HOW TO RUN THE PROJECT
+-------------------------------
+See README.md for full step-by-step instructions. In short:
+  1. Install Ollama, pull a model (e.g. `ollama pull llama3.2:3b`)
+  2. Create a virtual environment and `pip install -r requirements.txt`
+  3. Copy `.env.example` to `.env`
+  4. Build the vector index: `python scripts/build_index.py`
+  5. Start the backend: `uvicorn app.main:app --reload`
+  6. Start the frontend (new terminal): `streamlit run ui/streamlit_app.py`
+
+14. WHAT WAS ACTUALLY IMPLEMENTED
+--------------------------------------
+- A full working RAG pipeline (document loading, chunking, embeddings, ChromaDB
+  storage, retrieval) - genuinely implemented and tested, not mocked
+- Five real agents (one router + four department agents) sharing common logic
+- A FastAPI backend with /ask and /health, with real error handling for LLM
+  unavailability, empty questions, and missing vector data
+- A Streamlit frontend with chat history, source display, and department/agent display
+- 10 realistic fictional knowledge base documents
+- An evaluation pipeline with 49 real questions, run against 3 real experimental
+  configurations, producing real CSV results (not fabricated numbers). Actual
+  results: RAG improved answer accuracy from 28.9% (plain LLM, no retrieval) to
+  92.9% (LLM+RAG) on a matched 15-question subset. The full multi-agent system
+  scored 66.9% answer accuracy and 77.6% routing accuracy on all 49 questions -
+  interestingly, LOWER than plain RAG without routing, because router
+  misclassification (~1 in 4 questions) excluded the correct department's
+  documents from being searched at all. This is a genuine, honestly-reported
+  finding - see research_paper.txt Section 21-22 for full discussion.
+- A pytest test suite covering document loading, chunking, routing, retrieval, and
+  the API
+- An LLM abstraction layer that supports both local Ollama and a cloud, OpenAI-
+  compatible API (cloud path implemented but not live-deployed as part of this build)
+
+15. LIMITATIONS
+--------------------
+- The project was tested with small (3B parameter), CPU-run local models, which are
+  noticeably slower (many seconds to a few minutes per answer) and less accurate than
+  larger models, and can occasionally misroute or make more phrasing mistakes than a
+  larger model would.
+- The LLM-based router can still misclassify some ambiguous questions even with a
+  well-written prompt; the keyword fallback only protects against the LLM being
+  completely unreachable, not against a working-but-imperfect LLM's classification
+  errors.
+- Answer correctness in evaluation is measured by simple keyword/concept overlap, not
+  by a trained semantic-similarity judge - this is an intentionally simple, explainable
+  metric appropriate for an intermediate student project, not a publication-grade
+  evaluation methodology.
+- Chat history is per-session only (Streamlit session state) and is lost on refresh;
+  there is no persistent database of past conversations.
+- The system has not been deployed to any live cloud hosting service as part of this
+  build; only the code and configuration needed for such a deployment were prepared.
+
+16. POSSIBLE FUTURE IMPROVEMENTS
+-------------------------------------
+- Use a larger/more capable local model (e.g. llama3.1:8b) or a cloud model for
+  noticeably better routing and answer quality
+- Add a proper LLM-based (or human) semantic evaluator alongside the keyword-overlap
+  metric for more rigorous answer-correctness scoring
+- Add persistent chat history (e.g. SQLite) if multi-session memory becomes a
+  requirement
+- Add streaming responses in the UI so answers appear token-by-token instead of all
+  at once
+- Expand the knowledge base with PDFs (official-looking circulars, forms) to test PDF
+  ingestion more thoroughly
+- Actually deploy the backend and frontend to a cloud host and measure real-world
+  latency and cost

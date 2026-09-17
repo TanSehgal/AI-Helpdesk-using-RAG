@@ -1,0 +1,72 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - IT SUPPORT (STUDENT SERVICES)
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== IT SERVICES OVERVIEW ===
+The Campus IT Helpdesk supports all student-facing digital services, including the
+Student Information Portal (SIP), campus Wi-Fi, university email accounts, and
+computer lab systems.
+
+=== STUDENT INFORMATION PORTAL (SIP) ACCOUNT ===
+Every student receives an SIP account and a university email address
+(firstname.lastname@student.greenfieldinstitute.edu.example) upon admission.
+Login credentials are sent to the student's personal email during the admission
+process.
+
+Password reset: Students can reset their SIP password using the "Forgot Password"
+link on the login page, which sends a reset link to the registered personal email.
+If the personal email is no longer accessible, students must visit the IT Helpdesk
+in person with their student ID card for manual verification and reset.
+
+=== CAMPUS WI-FI ===
+Wi-Fi is available across all academic buildings, hostels, and common areas under the
+network name "GIT-Campus". Students connect using their SIP credentials. Each student
+account supports up to 3 simultaneous device connections. Wi-Fi issues (slow speed,
+connectivity drops) can be reported to the IT Helpdesk through the "IT Support"
+ticket system on the portal.
+
+=== COMPUTER LABS ===
+GIT has 6 general-purpose computer labs and department-specific labs (CSE, ECE, AIDS)
+available for student use outside class hours, from 9:00 AM to 8:00 PM on working
+days, subject to availability and lab-in-charge approval for after-hours access.
+
+=== EMAIL AND SOFTWARE ===
+University email accounts come with access to Microsoft Office 365 Education
+(including Word, Excel, PowerPoint, Teams) free of charge for enrolled students.
+Students can also request access to specialized software (MATLAB, AutoCAD, etc.)
+through the IT Helpdesk, subject to department-specific licensing availability.
+
+=== RAISING AN IT SUPPORT TICKET ===
+Students can raise an IT support ticket through:
+1. The Student Information Portal under "IT Support" > "Raise Ticket"
+2. Emailing the helpdesk directly
+3. Walking in to the IT Helpdesk (Academic Block, Room 015)
+
+Ticket priority levels:
+- Critical (portal/email down for many users): Response within 2 hours
+- High (individual account access issues): Response within 1 working day
+- Normal (software requests, general queries): Response within 3 working days
+
+=== DATA AND ACCOUNT SECURITY ===
+Students are advised to never share their SIP password with anyone, including staff.
+The IT Helpdesk will never ask for a password over email or phone. Suspicious emails
+requesting credentials should be reported to the IT Helpdesk immediately as a
+potential phishing attempt.
+
+=== CONTACT INFORMATION ===
+IT Helpdesk: Academic Block, Room 015
+Email: ithelpdesk@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6010 (9 AM - 6 PM, Monday to Saturday)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: I forgot my SIP portal password. How do I reset it?
+A: Use the "Forgot Password" link on the login page to receive a reset link at your
+   registered personal email. If that email is inaccessible, visit the IT Helpdesk
+   with your student ID card for manual reset.
+
+Q: How many devices can I connect to campus Wi-Fi?
+A: Up to 3 simultaneous devices per student account on the "GIT-Campus" network.
+
+Q: Is Microsoft Office free for students?
+A: Yes, Microsoft Office 365 Education is provided free of charge with your
+   university email account.

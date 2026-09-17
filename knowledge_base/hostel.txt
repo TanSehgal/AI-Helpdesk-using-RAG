@@ -1,0 +1,109 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - HOSTEL DEPARTMENT
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== HOSTEL FACILITIES ===
+GIT has 4 hostels on campus:
+- Hostel A (Boys, First Year) - 200 rooms, capacity 400
+- Hostel B (Boys, Senior) - 250 rooms, capacity 500
+- Hostel C (Girls, First Year) - 150 rooms, capacity 300
+- Hostel D (Girls, Senior) - 180 rooms, capacity 360
+
+Each room is either a double-sharing or triple-sharing room, equipped with beds,
+study tables, chairs, cupboards, Wi-Fi connectivity, and 24-hour water and electricity
+supply with backup power.
+
+=== HOSTEL APPLICATION PROCEDURE ===
+Hostel accommodation is offered on a first-come-first-served basis, subject to
+availability, and is mandatory for all first-year outstation students.
+
+To apply for hostel admission, students must submit the following documents to the
+Hostel Office (located near Hostel A reception) within 10 days of admission:
+1. Duly filled Hostel Application Form (available on the Student Information Portal
+   under "Hostel" > "Apply")
+2. Two recent passport-size photographs
+3. Copy of the student ID card (or admission confirmation letter if ID card is not
+   yet issued)
+4. Copy of Aadhaar card or other government-issued photo ID
+5. Medical fitness certificate from a registered medical practitioner
+6. Hostel fee payment receipt (see Hostel Fees section below)
+
+Applications are reviewed by the Hostel Warden's office, and room allocation is
+communicated via email and the Student Information Portal within 5 working days.
+
+=== HOSTEL ALLOCATION ===
+Room allocation is done by the Hostel Committee based on: year of study, application
+date, and any medical or special accommodation requests. First-year students are
+allotted rooms in Hostel A or Hostel C. Senior students may apply for room changes at
+the start of each academic year through the "Room Change Request" form, subject to
+availability.
+
+Roommate preferences can be indicated in the application form but are not guaranteed.
+
+=== HOSTEL FEES ===
+Hostel fees are charged per semester and include accommodation and maintenance
+(mess charges are billed separately, see below):
+- Double-sharing room: Rs. 45,000 per semester
+- Triple-sharing room: Rs. 35,000 per semester
+- Refundable security deposit (one-time, at first admission): Rs. 10,000
+
+Hostel fees must be paid in full before check-in, or in two installments with prior
+approval from the Hostel Warden (50% before check-in, 50% within 6 weeks of semester
+start). Late payment attracts a fine of Rs. 100 per day.
+
+=== MESS FACILITIES ===
+Each hostel has an attached mess providing breakfast, lunch, evening snacks, and
+dinner. Mess timings:
+- Breakfast: 7:30 AM - 9:30 AM
+- Lunch: 12:30 PM - 2:30 PM
+- Evening Snacks: 5:00 PM - 6:00 PM
+- Dinner: 8:00 PM - 10:00 PM
+
+Mess fee is Rs. 18,000 per semester, billed separately from hostel accommodation fees
+and payable at the start of each semester. A vegetarian-only mess option is available
+in Hostel C and Hostel D. Students with specific dietary requirements can submit a
+request to the Mess Committee.
+
+=== HOSTEL RULES ===
+- Hostel gates close at 10:30 PM on weekdays and 11:30 PM on weekends. Late entry
+  requires prior written permission from the Warden.
+- Visitors are allowed in the common visiting area only, between 4:00 PM and 7:00 PM.
+  Overnight guests are not permitted.
+- Ragging of any kind is strictly prohibited and will result in immediate expulsion
+  from the hostel, in line with UGC anti-ragging regulations.
+- Cooking appliances (induction stoves, heaters) are not allowed in rooms due to fire
+  safety regulations.
+- Students must vacate hostel rooms within 3 days of the end of the semester unless
+  prior permission is obtained for vacation stay.
+
+=== HOSTEL COMPLAINTS ===
+Complaints regarding room maintenance, mess quality, or hostel facilities can be
+raised through:
+1. The "Hostel Complaints" section of the Student Information Portal (tracked with a
+   ticket number)
+2. In person at the Hostel Warden's office (available 10 AM - 1 PM, Monday to Friday)
+3. The Hostel Committee's suggestion box located at each hostel reception
+
+Complaints are typically resolved within 3-5 working days. Urgent issues (electricity,
+water supply, safety) are treated as priority and addressed within 24 hours.
+
+=== CONTACT INFORMATION ===
+Hostel Office: Near Hostel A Reception
+Email: hostel@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6003 (24-hour helpline for hostel residents)
+Chief Warden: Available for appointments 10 AM - 12 PM, Monday to Friday, Hostel A
+Office
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: What documents are required for hostel admission?
+A: A duly filled hostel application form, two passport-size photographs, a copy of the
+   student ID card (or admission confirmation letter), a government photo ID, a medical
+   fitness certificate, and the hostel fee payment receipt.
+
+Q: Can day scholars apply for hostel accommodation?
+A: Yes, day scholars may apply if seats are available after outstation students are
+   accommodated, subject to Hostel Committee approval.
+
+Q: Is the security deposit refundable?
+A: Yes, the Rs. 10,000 security deposit is refunded within 30 days of final hostel
+   checkout, after deduction of any damage charges.

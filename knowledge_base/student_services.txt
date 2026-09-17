@@ -1,0 +1,64 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - GENERAL STUDENT SERVICES
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== STUDENT ID CARDS ===
+Every enrolled student is issued a photo identity card during the admission process.
+The ID card is mandatory for entry into campus, hostel, library, examination halls,
+and labs.
+
+Issuance procedure for new students:
+1. Complete admission formalities and fee payment
+2. Submit a passport-size photograph and a copy of government ID at the Student
+   Services Desk (Admin Block, Room 110)
+3. ID cards are issued within 5 working days of admission
+
+Lost/Damaged ID Card:
+1. Report the loss immediately to Student Services and file a request for reissue on
+   the Student Information Portal
+2. Pay the reissue fee of Rs. 250
+3. Duplicate ID card is issued within 5 working days
+
+=== COUNSELING AND WELLNESS SERVICES ===
+GIT provides free and confidential counseling services through the Student Wellness
+Center located in the Student Activity Center. Services include academic stress
+counseling, career counseling, and mental health support. Appointments can be booked
+through the Student Information Portal under "Wellness" or by walking in during
+office hours (10 AM - 4 PM, Monday to Friday).
+
+=== STUDENT CLUBS AND ACTIVITIES ===
+GIT has over 20 registered student clubs covering technical, cultural, and sports
+interests, including the Coding Club, Robotics Club, Music Society, Dramatics Club,
+and the Sports Committee. New students can join clubs during the "Club Fair" held in
+the first two weeks of the odd semester, coordinated through the Student Activity
+Center.
+
+=== GRIEVANCE REDRESSAL ===
+General student grievances not related to academics or hostel (e.g., harassment,
+facility issues, general complaints) can be raised through:
+1. The Student Grievance Portal (accessible via the Student Information Portal)
+2. In writing to the Dean of Student Affairs Office (Admin Block, Room 112)
+Grievances are acknowledged within 48 hours and typically resolved within 2 weeks.
+
+=== LOST AND FOUND ===
+The Lost and Found desk is located at the Student Services Desk (Admin Block, Room
+110). Items are logged and held for 60 days before being donated or disposed of.
+
+=== CONTACT INFORMATION ===
+Student Services Desk: Admin Block, Room 110
+Email: studentservices@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6008 (10 AM - 5 PM, Monday to Saturday)
+Dean of Student Affairs Office: Admin Block, Room 112
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: How do I get a duplicate student ID card?
+A: Report the loss to Student Services, submit a reissue request on the portal, and
+   pay the Rs. 250 fee. The duplicate card is issued within 5 working days.
+
+Q: Are counseling services confidential?
+A: Yes, all sessions at the Student Wellness Center are confidential and free of
+   charge for enrolled students.
+
+Q: How do I join a student club?
+A: Attend the Club Fair held in the first two weeks of the odd semester, or contact
+   the Student Activity Center directly for ongoing enrollment in specific clubs.

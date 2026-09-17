@@ -1,0 +1,82 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - SCHOLARSHIPS (ADMINISTRATION)
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== SCHOLARSHIP CATEGORIES ===
+GIT offers the following scholarship programs:
+
+1. Merit Scholarship
+   Awarded to students scoring a CGPA of 9.0 or above in the previous academic year.
+   Covers 50% of tuition fee for the following year. Renewable each year subject to
+   maintaining the CGPA requirement.
+
+2. Need-Based Scholarship
+   Awarded to students from economically weaker sections (family annual income below
+   Rs. 3,00,000), based on submitted income certificates. Covers 25%-75% of tuition
+   fee depending on assessed need, as determined by the Scholarship Committee.
+
+3. Sports Scholarship
+   Awarded to students who have represented their state or national team in
+   recognized sporting events. Covers 25% of tuition fee. Applicants must submit
+   proof of participation/achievement from the relevant sports authority.
+
+4. GIT Alumni Scholarship
+   Sponsored by the GIT Alumni Association for students with outstanding
+   extracurricular contributions. Provides a fixed grant of Rs. 20,000 per year.
+
+=== ELIGIBILITY CRITERIA ===
+General eligibility for all scholarships:
+- Must be a regular, full-time student of GIT
+- Must not have any pending disciplinary action
+- Must maintain minimum 75% attendance
+- Cannot hold more than one GIT scholarship simultaneously (students are awarded the
+  scholarship with the highest value if eligible for multiple)
+
+=== APPLICATION PROCEDURE ===
+Scholarship applications open twice a year, at the start of each semester, and must be
+submitted through the Student Information Portal under "Scholarships" > "Apply".
+
+Required documents:
+1. Scholarship application form (auto-generated on the portal)
+2. Previous semester mark sheet / CGPA statement
+3. Income certificate (for need-based scholarship), issued by a competent government
+   authority, not older than 6 months
+4. Category certificate, if applicable
+5. Supporting documents specific to the scholarship (sports certificates, achievement
+   letters, etc.)
+
+The Scholarship Committee reviews applications within 4 weeks and results are
+published on the Student Information Portal. Scholarship amounts are credited
+directly against the tuition fee for the relevant semester; they are not paid out as
+cash to students.
+
+=== EXTERNAL SCHOLARSHIPS ===
+GIT also facilitates applications for government and external scholarships (such as
+state government minority scholarships and national merit scholarships). Information
+and application windows for these are circulated via official email and posted on the
+notice board outside the Accounts Office.
+
+=== RENEWAL AND CANCELLATION ===
+Merit and need-based scholarships are reviewed every semester. A scholarship may be
+canceled if:
+- The student's CGPA falls below the required threshold
+- The student is found guilty of academic dishonesty or disciplinary violation
+- The student's attendance falls below 75% without valid condonation
+
+=== CONTACT INFORMATION ===
+Scholarship Cell: Admin Block, Room 102 (under Accounts Office)
+Email: scholarships@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6005 (10 AM - 5 PM, Monday to Saturday)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: Can I apply for both Merit and Need-Based scholarships?
+A: You can apply for both, but if eligible for multiple, you will be awarded only the
+   one with the highest value, not both simultaneously.
+
+Q: What is the income limit for the Need-Based Scholarship?
+A: Family annual income must be below Rs. 3,00,000, verified through a valid income
+   certificate issued by a competent government authority.
+
+Q: When do scholarship results get published?
+A: Within 4 weeks of the application deadline, on the Student Information Portal
+   under "Scholarships" > "Status".

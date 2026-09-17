@@ -1,0 +1,67 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - LIBRARY (STUDENT SERVICES)
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== LIBRARY OVERVIEW ===
+The Dr. A.K. Rao Central Library is located in the Academic Block and holds
+approximately 85,000 physical books, 12,000 e-books, and subscriptions to over 150
+international journals across engineering, science, and management disciplines.
+
+=== LIBRARY TIMINGS ===
+- Monday to Friday: 8:00 AM - 10:00 PM
+- Saturday: 9:00 AM - 6:00 PM
+- Sunday: 10:00 AM - 4:00 PM (Reading Room only, no book issue/return)
+- During examination periods, the library remains open until midnight on weekdays.
+
+=== BOOK BORROWING POLICY ===
+- Undergraduate students: Up to 4 books for 14 days
+- Postgraduate students: Up to 6 books for 21 days
+- Faculty members: Up to 10 books for 30 days
+
+Books can be renewed twice online through the Library Portal if not reserved by
+another user. Reference books, journals, and rare collections are for in-library use
+only and cannot be borrowed.
+
+=== FINES AND PENALTIES ===
+- Late return fine: Rs. 2 per day per book
+- Lost book: Replacement cost of the book plus a processing fee of Rs. 200
+- Damaged book: Assessed by the librarian, ranging from partial to full replacement
+  cost depending on the extent of damage
+
+Students with unpaid library fines exceeding Rs. 500 will have their portal account
+and hall ticket issuance suspended until dues are cleared.
+
+=== DIGITAL RESOURCES ===
+The library provides access to digital resources including IEEE Xplore, ScienceDirect,
+SpringerLink, and the National Digital Library, accessible on-campus and remotely via
+VPN using the student's university credentials. E-books and past year question papers
+can be downloaded from the Library Portal.
+
+=== LIBRARY CARD AND ACCESS ===
+The student ID card also functions as the library card. New students receive library
+access automatically after fee payment and ID card issuance. Lost ID cards must be
+reported immediately to both Student Services and the Library to block borrowing
+privileges (see Student Services documentation for ID card reissue).
+
+=== STUDY SPACES ===
+The library has a Reading Room (250 seats), a Silent Study Zone, Group Discussion
+Rooms (bookable via the Library Portal, up to 2 hours per booking), and a Digital
+Resource Center with 40 computer workstations.
+
+=== CONTACT INFORMATION ===
+Library Help Desk: Academic Block, Ground Floor
+Email: library@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6007 (During library hours)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: How many books can an undergraduate student borrow at once?
+A: Up to 4 books for a period of 14 days, renewable twice if not reserved by another
+   student.
+
+Q: What is the fine for a late return?
+A: Rs. 2 per day per book. Fines exceeding Rs. 500 will suspend portal and hall
+   ticket access until cleared.
+
+Q: Can I access journals from home?
+A: Yes, digital resources like IEEE Xplore and ScienceDirect are accessible remotely
+   via VPN using your university login credentials.

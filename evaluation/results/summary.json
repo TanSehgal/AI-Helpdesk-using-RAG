@@ -1,0 +1,11 @@
+[
+  {
+    "experiment": "Experiment B - LLM + RAG (no routing)",
+    "total_questions": 15,
+    "routing_accuracy": "N/A",
+    "retrieval_success_rate": 1.0,
+    "answer_accuracy_concept_overlap": 0.929,
+    "average_response_time_sec": 71.086,
+    "out_of_domain_correct_refusal_rate": "N/A"
+  }
+]

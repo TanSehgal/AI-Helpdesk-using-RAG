@@ -1,0 +1,66 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - TRANSPORTATION (STUDENT SERVICES)
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== BUS SERVICE OVERVIEW ===
+GIT operates a fleet of 25 buses covering 18 routes across the city for day-scholar
+students and staff. Buses run on a fixed schedule, departing from designated pickup
+points in the morning and returning after college hours.
+
+=== ROUTES AND TIMINGS ===
+Bus routes are grouped into 4 zones (North, South, East, West) covering major
+residential areas. Full route maps and stop-wise timings are published on the
+Transportation Portal (accessible via the Student Information Portal under
+"Transport") at the start of each academic year.
+
+General schedule:
+- Morning pickup: 6:45 AM - 8:15 AM (routes depart in a staggered manner)
+- Evening drop: 4:30 PM and 6:30 PM (two drop trips to accommodate students with
+  extra classes or lab sessions)
+
+=== BUS PASS APPLICATION ===
+Students wishing to use the bus service must apply for a bus pass through the
+Transportation Portal:
+1. Select the nearest pickup point/route
+2. Pay the semester bus fee (see Fees section below)
+3. Bus pass is issued digitally and linked to the student ID card within 3 working
+   days
+
+=== TRANSPORTATION FEES ===
+Bus fees are charged per semester based on distance zone:
+- Zone 1 (0-10 km): Rs. 6,000 per semester
+- Zone 2 (10-20 km): Rs. 9,000 per semester
+- Zone 3 (20+ km): Rs. 12,000 per semester
+
+Fees are payable along with the semester fee deadline. Mid-semester joiners are
+charged on a pro-rata basis.
+
+=== ROUTE CHANGES AND NEW STOPS ===
+Requests for new stops or route changes can be submitted to the Transportation Office
+through the portal and are reviewed quarterly by the Transportation Committee,
+subject to a minimum number of students (10+) requesting the same stop.
+
+=== RULES ===
+- Bus passes are non-transferable; the ID card is checked at boarding.
+- Students must be present at the pickup point at least 5 minutes before the
+  scheduled time; buses do not wait beyond 2 minutes past schedule.
+- Misconduct on buses (damage to property, misbehavior with driver/conductor) may
+  result in suspension of the bus pass, decided by the Transportation Committee.
+
+=== CONTACT INFORMATION ===
+Transportation Office: Near Main Gate, Security Block
+Email: transport@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6009 (7 AM - 7 PM, all working days)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: How do I apply for a bus pass?
+A: Apply through the Transportation Portal, select your nearest pickup point, and pay
+   the applicable zone fee. The pass is linked to your ID card within 3 working days.
+
+Q: What happens if I miss the bus?
+A: Buses do not wait beyond 2 minutes past the scheduled time. Students who miss the
+   bus must arrange alternate transportation; no refund is provided for missed trips.
+
+Q: Can I request a new bus stop near my home?
+A: Yes, submit a request via the Transportation Portal. New stops are considered
+   quarterly and require at least 10 students requesting the same location.

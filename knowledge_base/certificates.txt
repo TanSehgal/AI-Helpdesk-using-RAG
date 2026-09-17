@@ -1,0 +1,72 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - CERTIFICATES & DOCUMENTS (ADMINISTRATION)
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== TYPES OF CERTIFICATES ISSUED ===
+The Administration Office issues the following certificates and documents to
+currently enrolled and former students:
+1. Bonafide Certificate - confirms current enrollment status
+2. Transfer Certificate (TC) - issued upon leaving the institution
+3. Migration Certificate - required for students moving to another university
+4. Character Certificate - confirms conduct record
+5. Provisional Degree Certificate - issued immediately after final results, pending
+   the formal convocation
+6. Original Degree Certificate - issued after convocation
+7. Consolidated Marksheet - a single document listing grades across all semesters
+8. Fee Receipt / No Dues Certificate
+
+=== APPLICATION PROCEDURE ===
+Certificates can be requested through the Student Information Portal under
+"Certificates" > "Apply". Steps:
+1. Select the certificate type required
+2. Specify the purpose (e.g., higher studies, employment, visa application)
+3. Pay the applicable processing fee online
+4. Track the request status via the portal ticket number
+
+Certificates are typically ready for collection or digital download within the
+following timelines:
+- Bonafide Certificate: 2 working days
+- Character Certificate: 3 working days
+- Transfer Certificate / Migration Certificate: 7 working days (requires No Dues
+  Clearance first)
+- Provisional Degree Certificate: 15 working days after final result declaration
+- Consolidated Marksheet: 5 working days
+- Original Degree Certificate: Issued only after the annual convocation ceremony
+
+=== PROCESSING FEES ===
+- Bonafide Certificate: Free (up to 2 per semester), Rs. 100 for additional copies
+- Character Certificate: Rs. 100
+- Transfer Certificate: Rs. 500
+- Migration Certificate: Rs. 500
+- Duplicate Marksheet/Certificate (in case of loss): Rs. 1,000 plus a notarized
+  affidavit of loss
+
+=== NO DUES CLEARANCE ===
+Before a Transfer Certificate, Migration Certificate, or final Provisional Degree can
+be issued, students must obtain a "No Dues" clearance confirming no pending library
+books, hostel dues, fee dues, or lab equipment. The No Dues form must be signed by:
+Library, Hostel Office (if applicable), Accounts Office, and the respective
+Department Office. The completed form is submitted to the Administration Office.
+
+=== DIGITAL CERTIFICATES ===
+Bonafide certificates and consolidated marksheets are also available as digitally
+signed PDF documents downloadable directly from the Student Information Portal,
+without needing to visit the Administration Office, for most standard purposes.
+
+=== CONTACT INFORMATION ===
+Administration Office (Certificates Section): Admin Block, Room 105
+Email: certificates@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6006 (10 AM - 5 PM, Monday to Saturday)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: How long does it take to get a Bonafide Certificate?
+A: Typically 2 working days after applying on the Student Information Portal; it can
+   also be downloaded digitally in most cases.
+
+Q: Do I need No Dues Clearance for a Bonafide Certificate?
+A: No, No Dues Clearance is only required for Transfer Certificate, Migration
+   Certificate, and final Provisional Degree Certificate.
+
+Q: I lost my original marksheet. How do I get a duplicate?
+A: Submit a request on the portal along with a notarized affidavit of loss and pay
+   the Rs. 1,000 processing fee. Processing takes approximately 10 working days.

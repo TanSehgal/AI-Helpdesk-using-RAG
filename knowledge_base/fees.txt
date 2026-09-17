@@ -1,0 +1,82 @@
+GREENFIELD INSTITUTE OF TECHNOLOGY (GIT) - FEES (ADMINISTRATION)
+NOTE: Greenfield Institute of Technology is a FICTIONAL university created as sample data
+for this project. It does not represent any real institution.
+
+=== FEE STRUCTURE ===
+Tuition and other fees are charged per semester for all undergraduate and postgraduate
+programs:
+
+B.Tech Programs (CSE, ECE, ME, CE, AIDS):
+- Tuition Fee: Rs. 85,000 per semester
+- Development Fee: Rs. 8,000 per semester
+- Examination Fee: Rs. 2,500 per semester
+- Library and Lab Fee: Rs. 5,000 per semester
+- Total per semester: Rs. 100,500
+
+M.Tech Programs:
+- Tuition Fee: Rs. 65,000 per semester
+- Development Fee: Rs. 6,000 per semester
+- Examination Fee: Rs. 2,000 per semester
+- Total per semester: Rs. 73,000
+
+MBA Program:
+- Tuition Fee: Rs. 95,000 per semester
+- Development Fee: Rs. 8,000 per semester
+- Total per semester: Rs. 103,000
+
+One-time fees (at admission only): Admission Fee Rs. 15,000, Caution Deposit
+(refundable) Rs. 5,000.
+
+Hostel and mess fees are billed separately (see Hostel department information).
+
+=== FEE PAYMENT PROCEDURE ===
+Fees can be paid through:
+1. Online payment via the Student Information Portal (SIP) using net banking, UPI, or
+   card (recommended, instant receipt)
+2. Demand Draft in favor of "Greenfield Institute of Technology" payable at the
+   registered city, submitted to the Accounts Office
+3. Direct bank transfer to the university's designated account (details available on
+   the SIP under "Fee Payment" > "Bank Transfer")
+
+Fee payment deadlines:
+- Odd Semester: On or before 20th July
+- Even Semester: On or before 20th December
+
+=== LATE PAYMENT AND FINES ===
+A late fee of Rs. 100 per day applies after the deadline, up to a maximum of 30 days.
+Beyond 30 days of non-payment, the student's registration may be canceled, subject to
+review by the Dean of Student Affairs.
+
+=== FEE REFUND POLICY ===
+Students who withdraw from the program are eligible for a partial refund of tuition
+fees based on the following schedule (as per applicable regulatory guidelines):
+- Withdrawal before start of semester: 90% refund of tuition fee
+- Withdrawal within 15 days of semester start: 50% refund of tuition fee
+- Withdrawal after 15 days: No refund of tuition fee
+Development, examination, and library fees are non-refundable in all cases. The
+caution deposit is refunded in full upon graduation or withdrawal, provided there are
+no outstanding dues.
+
+=== INSTALLMENT FACILITY ===
+Students facing financial difficulty may apply for a two-installment payment plan
+through the Accounts Office, with 60% payable by the standard deadline and the
+remaining 40% payable within 45 days, subject to approval by the Dean of Student
+Affairs.
+
+=== CONTACT INFORMATION ===
+Accounts Office: Admin Block, Ground Floor, Room 101
+Email: accounts@greenfieldinstitute.edu.example
+Phone: +91-11-2345-6004 (10 AM - 5 PM, Monday to Saturday)
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: What is the total semester fee for a B.Tech student?
+A: Rs. 100,500 per semester, covering tuition, development, examination, and library/
+   lab fees. Hostel and mess fees are additional and billed separately.
+
+Q: Can I pay my fees in installments?
+A: Yes, with prior approval from the Dean of Student Affairs, you may pay 60% by the
+   deadline and the remaining 40% within 45 days.
+
+Q: I paid my fee but it's not reflecting on the portal. What should I do?
+A: Contact the Accounts Office with your payment receipt/transaction ID; portal
+   updates for bank transfers can take up to 3 working days.
